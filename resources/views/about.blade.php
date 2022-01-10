@@ -7,5 +7,5 @@
     <p>halo semuanya. ini blog aku :D</p>
     <p>{{ $email }}</p>
     <p>{{ $umur }} </p>
-    <img src="img/1.jpg" alt="izsa" width=200>
+    <img src="img/{{ $image }}" alt="{{ $nama }}" width="200" class="img-thumbnail rounded-circle">
 @endsection
